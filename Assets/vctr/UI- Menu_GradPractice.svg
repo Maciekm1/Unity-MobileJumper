@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210mm" height="297mm" version="1.1" viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient1086" x1="80.428" x2="47.017" y1="61.083" y2="88.032" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f1b295" offset="0"/>
+   <stop offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g>
+  <rect x="3.0609" y="4.1601" width="85" height="85" ry="8.3936" fill="#c59781"/>
+  <rect x="4.1193" y="3.1018" width="85" height="85" ry="8.3936" fill="url(#linearGradient1086)" stroke="#000" stroke-width=".6604"/>
+  <g fill="#db767b" fill-rule="evenodd" stroke-width=".48168">
+   <circle cx="159.17" cy="43.358" rx="29.063" ry="8.7691"/>
+   <circle cx="55.323" cy="69.413" r="0"/>
+   <circle cx="55.323" cy="72.059" rx="29.063" ry="8.7691"/>
+   <circle cx="55.323" cy="44.013" r="0"/>
+   <circle cx="57.202" cy="43.734" r="0"/>
+   <circle cx="57.202" cy="43.734" r="0"/>
+   <circle cx="57.202" cy="43.734" rx="29.063" ry="8.7691"/>
+   <circle cx="57.077" cy="43.985" rx="29.063" ry="8.7691"/>
+   <circle cx="57.077" cy="43.985" rx="29.063" ry="8.7691"/>
+  </g>
+  <g fill="#bd5b60" fill-rule="evenodd">
+   <circle cx="72.618" cy="26.552" r="8.7691" stroke-width=".26458"/>
+   <ellipse cx="35.507" cy="26.552" rx="24.714" ry="8.7691" stroke-width=".44417"/>
+   <circle cx="72.618" cy="45.602" r="8.7691" stroke-width=".26458"/>
+   <ellipse cx="35.507" cy="45.602" rx="24.714" ry="8.7691" stroke-width=".44417"/>
+   <circle cx="72.618" cy="65.71" r="8.7691" stroke-width=".26458"/>
+   <ellipse cx="35.507" cy="65.71" rx="24.714" ry="8.7691" stroke-width=".44417"/>
+  </g>
+  <g fill="#db767b" fill-rule="evenodd" stroke="#a02c2c">
+   <circle cx="73.676" cy="25.493" r="8.7691" stroke-width=".26458"/>
+   <ellipse cx="36.565" cy="25.493" rx="24.714" ry="8.7691" stroke-width=".44417"/>
+   <circle cx="73.676" cy="44.543" r="8.7691" stroke-width=".26458"/>
+   <ellipse cx="36.565" cy="44.543" rx="24.714" ry="8.7691" stroke-width=".44417"/>
+   <circle cx="73.676" cy="64.652" r="8.7691" stroke-width=".26458"/>
+   <ellipse cx="36.565" cy="64.652" rx="24.714" ry="8.7691" stroke-width=".44417"/>
+  </g>
+ </g>
+</svg>

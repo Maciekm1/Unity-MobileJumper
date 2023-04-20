@@ -1,0 +1,86 @@
+{
+    "name": "PlayerInputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "13638e8c-2729-48f3-8433-df9321568d33",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "PassThrough",
+                    "id": "8f6010cb-7f36-4ece-be9b-3330cc3d08d3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Grapple",
+                    "type": "Value",
+                    "id": "bed7e11d-ca74-483c-bfb3-73c9c5bbf509",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TouchingScreen",
+                    "type": "PassThrough",
+                    "id": "99b8e6ea-f72d-46b7-91c2-ded978a2b243",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "105aaffd-d2a1-4599-bcb6-9f11f9cb221a",
+                    "path": "<Touchscreen>/primaryTouch/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Touch",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cb3d2b2b-e4f7-4d5b-aa92-679e55af2b0b",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "Hold(duration=0.1)",
+                    "processors": "",
+                    "groups": "Touch",
+                    "action": "Grapple",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "85bc1592-2e33-4c68-9ac9-a3e5a8e2ac87",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "Touch",
+                    "action": "TouchingScreen",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Touch",
+            "bindingGroup": "Touch",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &860387668997757661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 860387668997757660}
+  - component: {fileID: 860387668997757651}
+  - component: {fileID: 860387668997757655}
+  - component: {fileID: 860387668997757648}
+  - component: {fileID: 860387668997757649}
+  - component: {fileID: 860387668997757650}
+  m_Layer: 0
+  m_Name: WaveSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &860387668997757660
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860387668997757661}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &860387668997757651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860387668997757661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32eb2e1bc8e937e438283d140f1fffe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveList:
+  - PointRequirement: 0
+    ObstacleList:
+    - ObstacleObject: {fileID: 8828524958319162704, guid: db016e61973448c4b82659888503ad44, type: 3}
+      MaxHeightSpawn: 0
+      TimeBtwnSpawns: 0
+  - PointRequirement: 3
+    ObstacleList:
+    - ObstacleObject: {fileID: 8828524958319162704, guid: db016e61973448c4b82659888503ad44, type: 3}
+      MaxHeightSpawn: 0
+      TimeBtwnSpawns: 0
+    - ObstacleObject: {fileID: 2476052352898124395, guid: fb5e7dea35908104b89839598862dd78, type: 3}
+      MaxHeightSpawn: 0
+      TimeBtwnSpawns: 0
+  - PointRequirement: 5
+    ObstacleList:
+    - ObstacleObject: {fileID: 8828524958319162704, guid: db016e61973448c4b82659888503ad44, type: 3}
+      MaxHeightSpawn: 0
+      TimeBtwnSpawns: 0
+    - ObstacleObject: {fileID: 2476052352898124395, guid: fb5e7dea35908104b89839598862dd78, type: 3}
+      MaxHeightSpawn: 0
+      TimeBtwnSpawns: 0
+    - ObstacleObject: {fileID: 4463420396703254156, guid: 517972cfa37302d4896942476f42b6ce, type: 3}
+      MaxHeightSpawn: 1
+      TimeBtwnSpawns: 0
+  - PointRequirement: 10
+    ObstacleList:
+    - ObstacleObject: {fileID: 8828524958319162704, guid: db016e61973448c4b82659888503ad44, type: 3}
+      MaxHeightSpawn: 0
+      TimeBtwnSpawns: 0
+    - ObstacleObject: {fileID: 2476052352898124395, guid: fb5e7dea35908104b89839598862dd78, type: 3}
+      MaxHeightSpawn: 0
+      TimeBtwnSpawns: 0
+    - ObstacleObject: {fileID: 7191435362642036759, guid: 1dfbd662dc168fd419d881df1e0cf189, type: 3}
+      MaxHeightSpawn: 0
+      TimeBtwnSpawns: 0
+    - ObstacleObject: {fileID: 4463420396703254156, guid: 517972cfa37302d4896942476f42b6ce, type: 3}
+      MaxHeightSpawn: 1
+      TimeBtwnSpawns: 0
+  spawnPositionX: 10
+  pools:
+  - {fileID: 860387668997757655}
+  - {fileID: 860387668997757648}
+  - {fileID: 860387668997757649}
+  - {fileID: 860387668997757650}
+--- !u!114 &860387668997757655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860387668997757661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 775c5920800b15c47800a19b6b93329b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pooledObjects: []
+  ObjectToPool: {fileID: 8828524958319162704, guid: db016e61973448c4b82659888503ad44, type: 3}
+  poolName: R1
+  startingAmount: 2
+--- !u!114 &860387668997757648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860387668997757661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 775c5920800b15c47800a19b6b93329b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pooledObjects: []
+  ObjectToPool: {fileID: 2476052352898124395, guid: fb5e7dea35908104b89839598862dd78, type: 3}
+  poolName: R2
+  startingAmount: 2
+--- !u!114 &860387668997757649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860387668997757661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 775c5920800b15c47800a19b6b93329b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pooledObjects: []
+  ObjectToPool: {fileID: 7191435362642036759, guid: 1dfbd662dc168fd419d881df1e0cf189, type: 3}
+  poolName: R3
+  startingAmount: 2
+--- !u!114 &860387668997757650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860387668997757661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 775c5920800b15c47800a19b6b93329b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pooledObjects: []
+  ObjectToPool: {fileID: 4463420396703254156, guid: 517972cfa37302d4896942476f42b6ce, type: 3}
+  poolName: GP
+  startingAmount: 1
